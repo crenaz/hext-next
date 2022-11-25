@@ -1,3 +1,5 @@
+So, I found this pretty decent template to use just as an example website.  It was designed by [Ravi Shekhar](https://github.com/dewdot)
+Here's the original Readme file:
 
 # About Hext
 Hext is a clean, light weight, fast and fully responsive free template for web hosting business It is built using Nextjs / React. Icons and images used in the template are designed using Figma.
