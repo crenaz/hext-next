@@ -7,7 +7,7 @@ export default function Dedicated() {
   return (
     <>
       <Head>
-        <title>Dedicated Servers | Hext</title>
+        <title>Dedicated Cat Naps | CatsNotDoctors</title>
       </Head>
       <header className="header header-page">
         <Header />
