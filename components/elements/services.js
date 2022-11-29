@@ -4,8 +4,8 @@ const Services = () => {
   return (
     <div className="section">
       <div className="section-title">
-        <h2>Our World-Class Web Hosting</h2>
-        <h4>Fast, Secure, reliable web hosting with 99.9% uptime guarantee</h4>
+        <h2>Our World-Class Felines</h2>
+        <h4>Fast, Secure, reliable Purring Felines with 99.9% satisfaction guarantee</h4>
       </div>
       <div className="cards">
         {ServicesData.map((item) => <div key={item.id} className="card">
