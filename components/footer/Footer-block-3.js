@@ -3,10 +3,10 @@ const FooterBlock3 = () => {
   return (
     <div className="footer-block">
       <ul>
-        <li><Link href="/vps/kvm-vps">KVM VPS</Link></li>
-        <li><Link href="/vps/managed-vps">Managed VPS</Link></li>
-        <li><Link href="/vps/storage-vps">Storage VPS</Link></li>
-        <li><Link href="/dedicated">Dedicated Server</Link></li>
+        <li><Link href="/vps/kvm-vps">A very</Link></li>
+        <li><Link href="/vps/managed-vps">silly</Link></li>
+        <li><Link href="/vps/storage-vps">sort of</Link></li>
+        <li><Link href="/dedicated">list</Link></li>
       </ul>
     </div>
   )

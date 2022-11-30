@@ -3,13 +3,13 @@ import Header from '../components/header/Header'
 import FrontHero from '../components/header/front-hero'
 import Services from '../components/elements/services'
 import Features from '../components/elements/features'
-import SectionFasterHosting from '../components/elements/section-faster-hosting'
+import Cloudguy from '../components/elements/cloudguy'
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Hext | Free Web Hosting Template</title>
+        <title>CatsNotDoctors | Or we could make this about the "Living Cats"</title>
       </Head>
 			<header className="header header-front">
 				<Header />
@@ -18,7 +18,7 @@ export default function Home() {
       <main className='main'>
         <div className='container'>
           <Services />
-          <SectionFasterHosting />
+          <Cloudguy />
           <Features />
         </div>
       </main>

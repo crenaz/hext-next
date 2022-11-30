@@ -3,7 +3,7 @@ const Features = () => {
   return (
     <section className="section">
       <div className="section-title">
-        <h2>Why Choose Hext</h2>
+        <h2>Why Choose us</h2>
       </div>
       <div className="cards">
         {FeaturesData.map((item) => <div key={item.id} className="card">
