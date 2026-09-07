@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '../../components/header/Header'
 import PageHeader from '../../components/header/page-header'
-import CardFeaturesHosting from '../../components/elements/card-features-hosting'
+import CardFeaturesHosting from '../../components/elements/card-features-purring'
 import PricingReseller from '../../components/elements/pricing-reseller'
 import FaqHosting from '../../components/elements/faq/faq-hosting'
 export default function ResellerHosting() {
