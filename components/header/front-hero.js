@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Link from 'next/link'
+
 const FrontHero = () => {
   return (
     <section className="section-front-hero">
@@ -14,7 +16,7 @@ const FrontHero = () => {
             </div>
           </div>{/* front-hero-text */}
           <div className="front-hero-section front-hero-image">
-            <img className="hero-image" src="/images/CatDoctorMorris.jpg" alt="hero image" />
+            <Image className="hero-image" src="/images/CatDoctorMorris.jpg" alt="hero image" />
           </div>{/* front-hero-image */}
         </div>
       </div>

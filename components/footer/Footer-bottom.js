@@ -1,4 +1,3 @@
-import Link from 'next/link'
 const yr = new Date().getFullYear();
 const FooterBottom = () => {
   return (

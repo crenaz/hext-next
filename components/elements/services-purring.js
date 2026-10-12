@@ -1,15 +1,17 @@
+import Image from "next/image";
 import Link from 'next/link'
 import { ServicesHostingData } from "../data/ServicesHostingData";
+
 const ServicesHosting = () => {
   return (
     <div className="section">
       <div className="section-title">
         <h2>Our World-Class Real Life Purring</h2>
-        <h4>Fast, secure, reliable real <em><b>Purring</b></em>  with an "actual cat" guarantee</h4>
+        <h4>Fast, secure, reliable real <em><b>Purring</b></em>  with an &quot;actual cat&quot; guarantee</h4>
       </div>
       <div className="cards">
         {ServicesHostingData.map((item) => <div key={item.id} className="card">
-          <div className="card-image"><img src={item.image} alt={item.title} /></div>
+          <div className="card-image"><Image src={item.image} alt={item.title} /></div>
           <h4 className="card-ttile">{item.title}</h4>
           <div className="card-text">{item.text}</div>
           <div className='bg-light-secondary color-secondary box'>

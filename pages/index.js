@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CatsNotDoctors | Or we could make this about the "Living Cats"</title>
+        <title>CatsNotDoctors | Or we could make this about the &quot;Living Cats&quot;</title>
       </Head>
 			<header className="header header-front">
 				<Header />

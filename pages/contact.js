@@ -1,8 +1,10 @@
+import Image from "next/image";
 import Head from 'next/head'
 import CardContact from '../components/elements/card-contact'
 import ContactForm from '../components/elements/contact-form'
 import Header from '../components/header/Header'
 import PageHeader from '../components/header/page-header'
+
 export default function Contact() {
   return (
     <>
@@ -20,7 +22,7 @@ export default function Contact() {
             <div className='spacer4'></div>
             <div className='flex-container'>
               <div className='flex-item'>
-                <img src="/images/working-user.svg" alt="working-user" />
+                <Image src="/images/working-user.svg" alt="working-user" />
               </div>
               <div className='flex-item'>
                 <ContactForm />

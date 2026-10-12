@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from 'next/link'
 import { ServicesVpsData } from '../data/ServicesVpsData';
 const ServicesVps = () => {
@@ -9,7 +10,7 @@ const ServicesVps = () => {
       </div>
       <div className="cards">
         {ServicesVpsData.map((item) => <div key={item.id} className="card">
-          <div className="card-image"><img src={item.image} alt={item.title} /></div>
+          <div className="card-image"><Image src={item.image} alt={item.title} /></div>
           <h4 className="card-ttile">{item.title}</h4>
           <div className="card-text">{item.text}</div>
           <div className='bg-light-secondary color-secondary box'>

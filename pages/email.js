@@ -3,6 +3,8 @@ import FeaturesEmail from '../components/elements/features-email'
 import PricingEmail from '../components/elements/pricing-email'
 import Header from '../components/header/Header'
 import PageHeader from '../components/header/page-header'
+import Image from "next/image";
+
 export default function Email() {
   return (
     <>
@@ -29,13 +31,13 @@ export default function Email() {
                   <p>Emails are encrypted in transit to secure email data. Extra layers of security with SPF, DKIM, and MX verifications.</p>
                 </div>
                 <div className='flex-item'>
-                  <img src="/images/mail/mail-security.svg" alt="secured mail" />
+                  <Image src="/images/mail/mail-security.svg" alt="secured mail" />
                 </div>
               </div>
             </div>{/* section */}
             <div className="section">
               <div className="flex-container">
-                <div className='flex-item'><img src="/images/mail/mail-delivery.svg" alt="mail-delivery" /></div>
+                <div className='flex-item'><Image src="/images/mail/mail-delivery.svg" alt="mail-delivery" /></div>
                 <div className='flex-item'>
                   <h3>High Delivery</h3>
                   <p>Hext mail has a global network of high reputation mail servers with reputed IPs to ensure your emails will always get delivered.</p><p>Its our work to deal with IP reputation and network issues. We preserves the sender reputation of all our mail server IPs to ensure high deliverability.</p>
@@ -44,7 +46,7 @@ export default function Email() {
             </div>{/* section */}
             <div className="section">
               <div className="flex-column text-center">
-                <div className='center'><img src="/images/mail/mail-pricing.svg" alt="mail pricing" /></div>
+                <div className='center'><Image src="/images/mail/mail-pricing.svg" alt="mail pricing" /></div>
                 <div>
                   <h3>Simple and Flexible Pricing</h3>
                   <p>Why pay a fixed amount every month. Just pay for what you use.</p>

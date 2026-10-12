@@ -9,17 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^16.3.4",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
-    "eslint": "^9.22.0",
-    "eslint-config-next": "^16.3.4"
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.0"
   },
   "pnpm": {
     "overrides": {
-      "brace-expansion": "^1.1.13",
+      "brace-expansion": "^5.0.8",
       "picomatch": "^2.3.2",
       "micromatch": "^4.0.8",
       "minimatch": ">=3.1.4",

@@ -1,6 +1,21 @@
 import Head from 'next/head'
 import '../styles/style.css'
 import Footer from '../components/footer/Footer'
+import { Outfit, Roboto } from "next/font/google";
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["500"],
+  display: "swap",
+  variable: "--font-outfit",
+});
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-roboto",
+});
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -9,9 +24,10 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Roboto&display=swap" rel="stylesheet"></link>
       </Head>
-      <Component {...pageProps} />
+      <div className={`${outfit.variable} ${roboto.variable}`}>
+        <Component {...pageProps} />
+      </div>
       <Footer />
     </>
   )
